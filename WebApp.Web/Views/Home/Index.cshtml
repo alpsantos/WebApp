@@ -1,0 +1,14 @@
+﻿@model WebApp.Web.Controllers.InfoView
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <p> OSVersion: @Model.OSVersion </p>
+    <p> FrameworkName: @Model.FrameworkName </p>
+    <p> Data: @Model.Data</p>
+
+    <p> VariavelAmbienteManual: @Model.VariavelAmbienteManual</p>
+    <p> VariavelAmbienteConfiguration: @Model.VariavelAmbienteConfiguration</p>
+</div>
